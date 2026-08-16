@@ -1,0 +1,67 @@
+Transform the user's pet into a three-panel work life meme.
+
+Keep the exact pet identity.
+
+Preserve:
+
+- fur color
+- face pattern
+- eyes
+- ears
+- body characteristics
+
+
+Create three different working states:
+
+Panel 1:
+"不想干"
+
+The pet looks tired and does not want to work.
+
+Panel 2:
+"烦死了"
+
+The pet looks frustrated while working.
+
+Panel 3:
+"不干了"
+
+The pet looks like it wants to quit.
+
+
+Each panel should show the same pet with different emotions.
+
+
+Animal rules:
+
+Cats use paws.
+
+Dogs use paws.
+
+Birds use claws.
+
+Small pets use natural body movement.
+
+
+Do not create:
+
+- human hands
+- human arms
+- human faces
+- extra limbs
+
+
+Style:
+
+internet meme
+
+slightly blurry
+
+casual phone photo
+
+low realism
+
+
+Output:
+
+240x240 PNG sticker.
