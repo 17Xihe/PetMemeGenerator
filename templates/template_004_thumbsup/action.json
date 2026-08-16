@@ -1,0 +1,98 @@
+{
+
+ "action_name":
+
+ "approval_gesture",
+
+
+ "required_objects":
+
+ [
+
+  "speech_bubble",
+
+  "text_棒"
+
+ ],
+
+
+ "pet_action":
+
+ {
+
+   "primary":
+
+   "thumb_up_like_pose",
+
+   "emotion":
+
+   "proud"
+
+ },
+
+
+ "animal_mapping":
+
+ {
+
+
+   "cat":
+
+   {
+
+    "gesture":
+
+    "raised_front_paw"
+
+   },
+
+
+   "dog":
+
+   {
+
+    "gesture":
+
+    "raised_paw"
+
+   },
+
+
+   "bird":
+
+   {
+
+    "gesture":
+
+    "raised_claw"
+
+   },
+
+
+   "small_pet":
+
+   {
+
+    "gesture":
+
+    "tiny_front_paw_raise"
+
+   }
+
+
+ },
+
+
+ "forbidden":
+
+ [
+
+  "human_hand",
+
+  "human_thumb",
+
+  "extra_fingers"
+
+ ]
+
+}
