@@ -1,0 +1,120 @@
+{
+
+ "action_name":
+
+ "secret_phone_under_blanket",
+
+
+ "scene":
+
+ {
+
+   "object":
+
+   "bed"
+
+ },
+
+
+ "pet_action":
+
+ {
+
+   "primary":
+
+   "lying_under_blanket",
+
+
+   "emotion":
+
+   "curious",
+
+
+   "attention":
+
+   "phone"
+
+ },
+
+
+ "animal_mapping":
+
+ {
+
+
+   "cat":
+
+   {
+
+    "pose":
+
+    "cat_head_out_blanket"
+
+   },
+
+
+   "dog":
+
+   {
+
+    "pose":
+
+    "dog_head_out_blanket"
+
+   },
+
+
+   "bird":
+
+   {
+
+    "pose":
+
+    "bird_hidden_under_blanket"
+
+   },
+
+
+   "small_pet":
+
+   {
+
+    "pose":
+
+    "small_pet_peeking"
+
+   }
+
+
+ },
+
+
+ "interaction_rules":
+
+ {
+
+   "eyes":
+
+   "toward_phone",
+
+
+   "body":
+
+   "mostly_hidden"
+
+ },
+
+
+ "forbidden":
+
+ [
+
+  "human_body",
+
+  "human_hands",
+
+  "human_face"
+
+ ]
+
+}
