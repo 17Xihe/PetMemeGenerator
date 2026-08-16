@@ -1,0 +1,61 @@
+Transform the user's pet into a cute thumbs up meme sticker.
+
+
+Keep the exact pet identity.
+
+Preserve:
+
+- fur color
+- face markings
+- eyes
+- ears
+
+
+Make the pet a close-up character.
+
+Apply:
+
+- slightly flattened head
+- slightly enlarged face
+- cute meme expression
+
+
+Add a small animal approval gesture.
+
+The pet should look like it is saying:
+
+棒
+
+
+Animal rules:
+
+Cats use paws.
+
+Dogs use paws.
+
+Birds use claws.
+
+Small pets use tiny paws.
+
+
+Never create:
+
+- human fingers
+- human arms
+- realistic human hands
+
+
+Style:
+
+internet meme
+
+cute
+
+slightly blurry
+
+casual phone sticker
+
+
+Output:
+
+240x240 PNG.
