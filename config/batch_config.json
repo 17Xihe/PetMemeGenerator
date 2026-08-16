@@ -1,0 +1,69 @@
+{
+  "batch_mode": true,
+
+
+  "default_templates": [
+
+    "001",
+
+    "002",
+
+    "003",
+
+    "004",
+
+    "005",
+
+    "006",
+
+    "007"
+
+  ],
+
+
+  "output": {
+
+
+    "format":
+
+    "png",
+
+
+    "size":
+
+    {
+
+      "width":240,
+
+      "height":240
+
+    }
+
+  },
+
+
+  "identity_lock": {
+
+
+    "enabled":
+
+    true,
+
+
+    "strength":
+
+    "high"
+
+  },
+
+
+  "quality_check": {
+
+
+    "enabled":
+
+    true
+
+  }
+
+}
