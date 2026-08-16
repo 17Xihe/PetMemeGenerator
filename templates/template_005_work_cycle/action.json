@@ -1,0 +1,105 @@
+{
+
+  "action_name": "work_cycle_three_stages",
+
+
+  "scene": {
+
+    "type": "three_stage_office_life"
+
+  },
+
+
+  "stages": [
+
+    {
+
+      "index": 1,
+
+      "label": "不想干",
+
+      "emotion": "tired",
+
+      "pose": "lying_down",
+
+      "expression": "lazy"
+
+    },
+
+
+    {
+
+      "index": 2,
+
+      "label": "烦死了",
+
+      "emotion": "annoyed",
+
+      "pose": "working_head_down",
+
+      "expression": "frustrated"
+
+    },
+
+
+    {
+
+      "index": 3,
+
+      "label": "不干了",
+
+      "emotion": "quit",
+
+      "pose": "walking_away",
+
+      "expression": "angry"
+
+    }
+
+  ],
+
+
+  "animal_mapping": {
+
+
+    "cat": {
+
+      "adapt": "natural_cat_pose"
+
+    },
+
+
+    "dog": {
+
+      "adapt": "natural_dog_pose"
+
+    },
+
+
+    "bird": {
+
+      "adapt": "bird_standing_pose"
+
+    },
+
+
+    "small_pet": {
+
+      "adapt": "small_animal_pose"
+
+    }
+
+  },
+
+
+  "forbidden": [
+
+    "human_face",
+
+    "human_hand",
+
+    "human_body"
+
+  ]
+
+}
