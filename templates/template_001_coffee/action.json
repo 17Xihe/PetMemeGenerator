@@ -1,0 +1,104 @@
+{
+
+ "action_name":
+
+ "office_coffee",
+
+
+ "scene":
+
+ {
+
+   "type":
+
+   "office_worker"
+
+ },
+
+
+ "pet_action":
+
+ {
+
+   "primary":
+
+   "holding_coffee",
+
+
+   "secondary":
+
+   "carrying_briefcase",
+
+
+   "emotion":
+
+   "serious"
+
+ },
+
+
+ "animal_mapping":
+
+ {
+
+
+   "cat":
+
+   {
+
+    "pose":
+
+    "cat_head_with_suit_body"
+
+   },
+
+
+   "dog":
+
+   {
+
+    "pose":
+
+    "dog_head_with_suit_body"
+
+   },
+
+
+   "bird":
+
+   {
+
+    "pose":
+
+    "bird_head_with_suit_body"
+
+   },
+
+
+   "small_pet":
+
+   {
+
+    "pose":
+
+    "small_pet_head_with_suit_body"
+
+   }
+
+
+ },
+
+
+ "forbidden":
+
+ [
+
+  "human_face",
+
+  "human_hands",
+
+  "extra_fingers"
+
+ ]
+
+}
