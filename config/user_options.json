@@ -1,0 +1,46 @@
+{
+  "template_selection": {
+
+
+    "mode":
+
+    "manual_or_auto",
+
+
+    "default":
+
+    "template_001_coffee"
+
+  },
+
+
+  "output": {
+
+
+    "size":
+
+    "240x240",
+
+
+    "format":
+
+    "PNG"
+
+  },
+
+
+  "batch_generation": {
+
+
+    "enabled":
+
+    true,
+
+
+    "default_count":
+
+    7
+
+  }
+
+}
