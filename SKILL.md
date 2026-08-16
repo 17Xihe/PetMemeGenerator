@@ -1,66 +1,25 @@
-# PetMemeGenerator
+# PetMemeGenerator Skill v2.0
 
-## Overview
 
-PetMemeGenerator is an AI skill that transforms user's pet photos into meme stickers.
+# Overview
 
-The workflow:
 
-1. Analyze uploaded pet image
-2. Extract pet subject
-3. Preserve pet identity
-4. Apply meme template
-5. Generate sticker image
+PetMemeGenerator is an AI pet meme sticker generation system.
 
----
 
-# Core Principle
+Purpose:
 
-The generated sticker must always preserve the original pet identity.
+Transform user's real pet photos into cute internet meme stickers.
 
-Maintain:
 
-- animal species
-- fur color
-- fur pattern
-- eye color
-- ear shape
-- face characteristics
+The system must preserve the original pet identity and apply predefined meme templates.
 
----
 
-# Forbidden Changes
 
-Never generate:
+# Core Pipeline
 
-- different animal species
-- extra eyes
-- extra ears
-- extra limbs
-- duplicated pets
-- distorted face
 
----
-
-# PetMemeGenerator
-
-## Overview
-
-PetMemeGenerator is an AI-powered pet meme sticker generator.
-
-The purpose is:
-
-Transform user's real pet photos into internet-style meme stickers.
-
-The system must preserve the original pet identity while applying predefined meme templates.
-
----
-
-# Core Workflow
-
-The generation pipeline:
-
-User uploads pet photo
+User Upload Pet Photo
 
 ↓
 
@@ -72,7 +31,7 @@ Pet Identity Lock
 
 ↓
 
-Pet Subject Extraction
+Pet Extraction
 
 ↓
 
@@ -80,7 +39,11 @@ Action Adaptation
 
 ↓
 
-Meme Template Application
+Template Selection
+
+↓
+
+Meme Composition
 
 ↓
 
@@ -88,209 +51,205 @@ Quality Check
 
 ↓
 
-Export 240×240 PNG sticker
+Export PNG 240×240
 
----
+
 
 # 1. Pet Identity Lock
 
-The pet identity is the highest priority.
+
+The user's pet identity is the highest priority.
+
 
 Always preserve:
 
+
 - species
+
 - breed characteristics
+
 - fur color
+
 - fur pattern
+
 - eye color
+
 - ear shape
+
 - face structure
+
 - unique markings
+
+
+The same pet must remain recognizable across multiple generated images.
+
 
 
 Never change:
 
+
 - animal species
-- pet color pattern
+
 - face identity
-- eye shape
+
+- natural markings
 
 
-The output must still look like the user's own pet.
 
----
+# 2. Pet Extraction Engine
 
-# 2. Pet Extraction Rules
 
 Before applying templates:
 
+
 Extract the pet subject.
-
-Remove:
-
-- background
-- furniture
-- humans
-- unrelated objects
 
 
 Keep:
 
-- fur edges
-- ears
+
 - eyes
+
+- ears
+
 - nose
+
+- fur edges
+
 - paws
 
 
-Create a clean pet layer for template composition.
-
----
-
-# 3. Meme Style Rules
-
-The final image should look like:
-
-- internet meme
-- social media sticker
-- casual phone photo
-- slightly imperfect
+Remove:
 
 
-Avoid:
+- background
 
-- commercial photography
-- luxury advertisement style
-- ultra realistic rendering
-- 3D cartoon style
+- furniture
+
+- humans
+
+- unrelated objects
 
 
-Default style:
 
-slightly blurry
+Create a clean pet layer.
 
-soft texture
 
-cute exaggeration
 
----
+# 3. Meme Transformation Rules
 
-# 4. Cute Transformation Rules
 
-Apply subtle meme transformation.
+Apply subtle meme style:
 
-Default:
 
-Head enlargement:
+Default transformation:
+
+
+Head:
 
 horizontal:
 105%-115%
+
 
 vertical:
 85%-95%
 
 
+
 Purpose:
 
+
 - rounder face
-- cuter expression
-- meme style
+
+- cuter appearance
+
+- internet meme feeling
+
 
 
 Do not distort identity.
 
----
 
-# 5. Animal Action Adaptation
+
+# 4. Animal Action Adapter
+
 
 Animals cannot use human anatomy.
 
-Always adapt actions naturally.
 
-Examples:
-
-Cat:
-
-- paws instead of hands
+Rules:
 
 
-Dog:
+Cats:
 
-- paws or mouth
-
-
-Bird:
-
-- claws instead of hands
+Use paws.
 
 
-Small animals:
+Dogs:
 
-- natural paw gestures
+Use paws or mouth.
+
+
+Birds:
+
+Use claws.
+
+
+Small pets:
+
+Use natural paws.
+
 
 
 Never generate:
 
+
 - human fingers
+
+- human hands
+
 - human arms
-- unnatural limbs
 
----
-
-# 6. Output Specification
-
-Default:
-
-Size:
-
-240 × 240 px
+- extra limbs
 
 
-Format:
 
-PNG
+# 5. Template System
 
 
-Suitable for:
 
-- WeChat stickers
-- social media sharing
-- meme collections
+## Template001
 
----
+Coffee Office Pet
 
-# 7. Template System
-
-Available templates:
-
----
-
-## Template 001
-
-Coffee?
 
 Theme:
 
-Business pet
+Business pet working
 
 
 Elements:
 
+
 - suit
-- briefcase
+
 - coffee
+
+- briefcase
 
 
 Action:
 
-holding coffee
+Holding coffee
+
 
 
 ---
 
-## Template 002
 
-Computer Explosion
+## Template002
+
+Computer Explosion Pet
 
 
 Theme:
@@ -300,75 +259,89 @@ Work breakdown
 
 Elements:
 
+
 - computer
+
 - keyboard
+
 - explosion
 
 
 Action:
 
-working on keyboard
+Working on keyboard
+
 
 
 ---
 
-## Template 003
 
-Rose Side
+## Template003
+
+Rose Side Pet
 
 
 Theme:
 
-Cute emotional pet
+Cute emotional meme
 
 
 Elements:
 
+
 - red rose
+
 - white background
 
 
 Action:
 
-standing beside rose
+Standing beside rose
+
 
 
 ---
 
-## Template 004
 
-Thumbs Up
+## Template004
+
+Thumbs Up Pet
 
 
 Theme:
 
-Approval reaction
+Reaction sticker
 
 
 Elements:
 
+
 - speech bubble
-- "棒"
+
+- 棒
 
 
 Action:
 
-pet paw thumbs up
+Pet approval gesture
+
 
 
 ---
 
-## Template 005
 
-Work Cycle
+## Template005
+
+Work Cycle Pet
 
 
 Theme:
 
-Pet employee life
+Employee life
 
 
 States:
+
 
 不想干
 
@@ -377,16 +350,13 @@ States:
 不干了
 
 
-Action:
-
-three emotional stages
-
 
 ---
 
-## Template 006
 
-Keyboard Surfing
+## Template006
+
+Keyboard Surfing Pet
 
 
 Theme:
@@ -396,25 +366,26 @@ Theme:
 
 Elements:
 
+
 - ocean
+
 - keyboard
+
+- simple tie
 
 
 Action:
 
-pet standing on keyboard
+Standing on keyboard
 
-
-Accessory:
-
-solid color tie
 
 
 ---
 
-## Template 007
 
-Under Blanket Phone
+## Template007
+
+Blanket Phone Pet
 
 
 Theme:
@@ -424,65 +395,148 @@ Secret phone usage
 
 Elements:
 
+
 - blanket
-- phone
+
+- smartphone
+
 - bedroom
 
 
 Action:
 
-pet looking at phone
+Looking at phone
 
 
----
 
-# 8. Quality Control
+# 6. Batch Generation Mode
 
-Before final output check:
+
+When user requests a pet meme set:
+
+
+Generate:
+
+
+001 Coffee
+
+002 Explosion
+
+003 Rose
+
+004 Thumbsup
+
+005 Work Cycle
+
+006 Keyboard Surf
+
+007 Blanket Phone
+
+
+
+All images must keep the same pet identity.
+
+
+
+# 7. Quality Check
+
+
+Before output:
+
+
+Check:
+
 
 Identity:
 
 ✓ Same pet
 
-Body:
+
+Anatomy:
+
+✓ No human hands
 
 ✓ No extra limbs
 
-Face:
+✓ No extra eyes
 
-✓ No distorted eyes
 
-Action:
+Composition:
 
-✓ Natural animal movement
+✓ Pet fits template
+
+✓ Correct position
+
 
 Style:
 
-✓ Meme quality
+✓ Meme style
 
-Resolution:
+✓ Slight blur
 
-✓ 240×240
+✓ Casual image feeling
 
 
-Reject and regenerate if:
+Output:
 
-- extra eyes
-- extra paws
-- human hands
-- different animal
-- changed fur pattern
 
----
+Format:
+
+PNG
+
+
+Size:
+
+240×240
+
+
+
+If failed:
+
+Regenerate.
+
+
+
+# 8. Template Loading Rules
+
+
+Each template folder contains:
+
+
+background image
+
+
+config.json
+
+
+action.json
+
+
+prompt.txt
+
+
+
+Template files define:
+
+
+- composition
+
+- position
+
+- action
+
+- style
+
+
 
 # Final Goal
 
-Create a recognizable meme sticker of the user's own pet.
 
-The result should feel like:
+Create:
 
 "My pet became an internet meme."
 
-Not:
 
-"A random AI animal image."
+The result should feel like a real shared pet sticker,
+
+not a random AI animal image.
