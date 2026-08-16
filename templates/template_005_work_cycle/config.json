@@ -1,0 +1,103 @@
+{
+  "template_id": "005",
+
+  "name": "Work Cycle Pet",
+
+  "category": [
+    "office",
+    "employee",
+    "emotion"
+  ],
+
+
+  "canvas": {
+    "width": 240,
+    "height": 240
+  },
+
+
+  "background": {
+
+    "fixed": true,
+
+    "elements": [
+      "three_panel_layout",
+      "office_desk",
+      "computer",
+      "chair",
+      "coffee"
+    ]
+
+  },
+
+
+  "layout": {
+
+    "type": "three_panel_horizontal",
+
+    "panels": 3,
+
+    "panel_width": 80
+
+  },
+
+
+  "pet_layer": {
+
+    "type": "full_body_replace",
+
+    "scale": 0.5,
+
+    "position": {
+
+      "panel_1": {
+        "x":40,
+        "y":130
+      },
+
+      "panel_2": {
+        "x":120,
+        "y":130
+      },
+
+      "panel_3": {
+        "x":200,
+        "y":130
+      }
+
+    },
+
+
+    "head_scale": 1.05
+
+  },
+
+
+  "text": {
+
+    "labels": [
+
+      "不想干",
+
+      "烦死了",
+
+      "不干了"
+
+    ]
+
+  },
+
+
+  "style": {
+
+    "meme": true,
+
+    "slightly_blurry": true,
+
+    "low_realism": true,
+
+    "casual_phone_photo": true
+
+  }
+
+}
