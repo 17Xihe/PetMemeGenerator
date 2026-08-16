@@ -1,0 +1,50 @@
+{
+  "action_name":"business_coffee",
+
+
+  "required_objects":[
+
+    "coffee",
+
+    "briefcase",
+
+    "business_body"
+
+  ],
+
+
+  "pet_action":{
+
+    "primary":"hold_coffee",
+
+    "secondary":"business_pose"
+
+  },
+
+
+  "animal_mapping":{
+
+
+    "cat":{
+      "use":"front_paw"
+    },
+
+
+    "dog":{
+      "use":"paw_or_mouth"
+    },
+
+
+    "bird":{
+      "use":"claw"
+    },
+
+
+    "small_pet":{
+      "use":"front_paw"
+
+    }
+
+  }
+
+}
