@@ -1,0 +1,86 @@
+{
+  "template_id": "002",
+
+  "name": "Computer Explosion Pet",
+
+  "category": [
+    "office",
+    "stress",
+    "work"
+  ],
+
+  "canvas": {
+    "width": 240,
+    "height": 240
+  },
+
+
+  "background": {
+
+    "fixed": true,
+
+    "elements": [
+      "exploding_computer",
+      "keyboard",
+      "desk"
+    ]
+
+  },
+
+
+  "pet_layer": {
+
+    "type": "full_body_replace",
+
+    "position": {
+
+      "x":120,
+
+      "y":130
+
+    },
+
+
+    "scale":0.55,
+
+
+    "transform": {
+
+      "head_scale":1.05,
+
+      "body_scale":0.9
+
+    }
+
+  },
+
+
+  "interaction": {
+
+
+    "required":
+
+    [
+      "keyboard"
+    ],
+
+
+    "paw_position":
+
+    "keyboard"
+
+  },
+
+
+  "style": {
+
+
+    "meme":true,
+
+    "slightly_blurry":true,
+
+    "low_realism":true
+
+  }
+
+}
