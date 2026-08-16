@@ -1,0 +1,75 @@
+Transform the user's pet into a cute office coffee meme sticker.
+
+
+Keep the exact pet identity.
+
+Preserve:
+
+- fur color
+- face markings
+- eyes
+- ears
+- unique features
+
+
+Replace the original character with the user's pet.
+
+
+Composition:
+
+The pet wears a small business suit.
+
+The pet holds a coffee cup.
+
+The pet carries a small briefcase.
+
+
+Head:
+
+Make the pet head slightly flattened vertically.
+
+Make the face slightly larger and cuter.
+
+
+Text:
+
+Add:
+
+"Coffee?"
+
+
+Animal rules:
+
+Cats use paws.
+
+Dogs use paws.
+
+Birds use claws.
+
+Small pets use natural paws.
+
+
+Never create:
+
+- human fingers
+- human hands
+- human arms
+- extra limbs
+
+
+Style:
+
+internet meme
+
+cute
+
+slightly blurry
+
+low resolution
+
+casual phone photo
+
+
+Output:
+
+240x240 PNG sticker.
