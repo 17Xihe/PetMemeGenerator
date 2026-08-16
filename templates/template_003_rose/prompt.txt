@@ -1,0 +1,47 @@
+Transform the user's pet into the Rose Side meme template.
+
+Keep the original pet identity.
+
+Preserve:
+
+- fur color
+- face pattern
+- eyes
+- ears
+- body characteristics
+
+
+Place the pet as a small cute character standing beside a large red rose.
+
+
+Composition:
+
+Pet on the left.
+
+Rose on the right.
+
+Pet should be smaller than the rose.
+
+
+Style:
+
+internet meme
+
+cute
+
+slightly blurry
+
+soft low-resolution feeling
+
+
+Avoid:
+
+- realistic photography
+- changing pet species
+- human body
+- extra limbs
+
+
+Output:
+
+240x240 PNG sticker.
