@@ -1,0 +1,58 @@
+Transform the user's pet into a cute hidden phone meme.
+
+Keep the exact pet identity.
+
+Preserve:
+
+- fur color
+- face markings
+- eyes
+- ears
+- unique features
+
+
+Replace the animal in bed with the user's pet.
+
+Scene:
+
+The pet is hiding under a blanket at night.
+
+The pet should:
+
+- only show head and small upper body
+- look directly at the phone
+- appear secretly playing with phone
+
+
+Blanket:
+
+Change the blanket pattern into a cute random fabric pattern.
+
+Keep natural folds.
+
+
+Style:
+
+casual phone photo
+
+internet meme
+
+slightly blurry
+
+not high definition
+
+low realism
+
+
+Important:
+
+Do not make the pet look like a human.
+
+Do not add human hands.
+
+Do not add human fingers.
+
+
+Output:
+
+240x240 PNG sticker.
