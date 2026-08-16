@@ -1,0 +1,120 @@
+{
+  "template_id": "003",
+
+  "name": "Rose Side Pet",
+
+  "category": [
+    "cute",
+    "love",
+    "emotional"
+  ],
+
+
+  "canvas": {
+
+    "width":240,
+
+    "height":240
+
+  },
+
+
+  "background": {
+
+    "fixed":true,
+
+    "elements":[
+
+      "red_rose",
+
+      "white_background",
+
+      "soft_shadow"
+
+    ]
+
+  },
+
+
+  "pet_layer": {
+
+
+    "type":
+
+    "full_body_replace",
+
+
+    "position": {
+
+
+      "x":75,
+
+
+      "y":135
+
+    },
+
+
+    "scale":
+
+    0.45,
+
+
+    "transform": {
+
+
+      "horizontal_scale":
+
+      1.05,
+
+
+      "vertical_scale":
+
+      0.95
+
+    }
+
+
+  },
+
+
+  "composition": {
+
+
+    "rose_position":
+
+    "right",
+
+
+    "pet_position":
+
+    "left",
+
+
+    "distance":
+
+    "close"
+
+  },
+
+
+  "style": {
+
+
+    "meme":
+
+    true,
+
+
+    "cute":
+
+    true,
+
+
+    "slightly_blurry":
+
+    true
+
+  }
+
+}
