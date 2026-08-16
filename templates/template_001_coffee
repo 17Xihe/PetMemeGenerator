@@ -1,0 +1,10 @@
+template_001_coffee
+
+│
+├── background.png
+│
+├── config.json
+│
+├── action.json
+│
+└── prompt.txt
