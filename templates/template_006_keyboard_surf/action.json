@@ -1,0 +1,118 @@
+{
+
+ "action_name":
+
+ "work_escape_surf",
+
+
+ "scene":
+
+ {
+
+   "object":
+
+   "keyboard_surfing"
+
+ },
+
+
+ "pet_action":
+
+ {
+
+   "primary":
+
+   "standing",
+
+   "emotion":
+
+   "relaxed",
+
+   "pose":
+
+   "surfing"
+
+ },
+
+
+ "animal_mapping":
+
+ {
+
+
+   "cat":
+
+   {
+
+    "body":
+
+    "standing_cat_with_suit",
+
+    "feet":
+
+    "on_keyboard"
+
+   },
+
+
+   "dog":
+
+   {
+
+    "body":
+
+    "standing_dog_with_suit",
+
+    "feet":
+
+    "on_keyboard"
+
+   },
+
+
+   "bird":
+
+   {
+
+    "body":
+
+    "standing_bird",
+
+    "claws":
+
+    "on_keyboard"
+
+   },
+
+
+   "small_pet":
+
+   {
+
+    "body":
+
+    "small_animal_standing",
+
+    "feet":
+
+    "near_keyboard"
+
+   }
+
+
+ },
+
+
+ "forbidden":
+
+ [
+
+  "human_face",
+
+  "human_hands",
+
+  "human_fingers"
+
+ ]
+
+}
