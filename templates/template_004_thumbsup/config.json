@@ -1,0 +1,115 @@
+{
+  "template_id": "004",
+
+  "name": "Good Pet Thumb Up",
+
+  "category": [
+    "reaction",
+    "approval",
+    "cute"
+  ],
+
+
+  "canvas": {
+
+    "width":240,
+
+    "height":240
+
+  },
+
+
+  "background": {
+
+    "fixed":true,
+
+    "elements":[
+
+      "white_background",
+
+      "speech_bubble",
+
+      "text_棒"
+
+    ]
+
+  },
+
+
+  "pet_layer": {
+
+
+    "type":
+
+    "head_closeup",
+
+
+    "position": {
+
+
+      "x":120,
+
+
+      "y":135
+
+    },
+
+
+    "scale":
+
+    0.85,
+
+
+    "transform": {
+
+
+      "horizontal_scale":
+
+      1.12,
+
+
+      "vertical_scale":
+
+      0.88
+
+    }
+
+
+  },
+
+
+  "expression": {
+
+
+    "priority":
+
+    "cute",
+
+
+    "face_enlarge":
+
+    true
+
+  },
+
+
+  "style": {
+
+
+    "meme":
+
+    true,
+
+
+    "slightly_blurry":
+
+    true,
+
+
+    "low_realism":
+
+    true
+
+  }
+
+}
