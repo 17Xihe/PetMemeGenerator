@@ -1,0 +1,138 @@
+{
+  "template_id": "006",
+
+  "name": "Keyboard Surfing Work Meme",
+
+  "category": [
+    "office",
+    "work",
+    "funny"
+  ],
+
+
+  "canvas": {
+
+    "width":240,
+
+    "height":240
+
+  },
+
+
+  "background": {
+
+    "fixed":true,
+
+    "elements":[
+
+      "ocean",
+
+      "wave",
+
+      "sky",
+
+      "keyboard"
+
+    ]
+
+  },
+
+
+  "pet_layer": {
+
+
+    "type":
+
+    "full_body_standing_replace",
+
+
+    "position": {
+
+
+      "x":135,
+
+
+      "y":130
+
+    },
+
+
+    "scale":
+
+    0.55,
+
+
+    "pose":
+
+    "standing_on_keyboard"
+
+
+  },
+
+
+  "clothing": {
+
+
+    "required":
+
+    true,
+
+
+    "style":
+
+    "simple_business_suit",
+
+
+    "tie":
+
+    {
+
+      "color":
+
+      "solid_color"
+
+    }
+
+  },
+
+
+  "text": {
+
+
+    "content":
+
+    "上班的意义是下班...",
+
+
+    "position":
+
+    "top_left"
+
+  },
+
+
+  "style": {
+
+
+    "meme":
+
+    true,
+
+
+    "slightly_blurry":
+
+    true,
+
+
+    "low_realism":
+
+    true,
+
+
+    "old_internet_photo":
+
+    true
+
+  }
+
+}
