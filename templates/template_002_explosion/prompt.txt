@@ -1,0 +1,42 @@
+Transform the user's pet into a funny office explosion meme.
+
+Keep the exact pet identity.
+
+Preserve:
+
+- fur color
+- face pattern
+- eyes
+- ears
+
+
+Place the pet in front of an exploding computer.
+
+The pet should appear working on the keyboard.
+
+
+Animal rules:
+
+Cats use paws.
+
+Dogs use paws.
+
+Birds use claws.
+
+Do not create human fingers.
+
+
+Style:
+
+internet meme
+
+slightly blurry
+
+casual phone photo
+
+not realistic commercial photography
+
+
+Output:
+
+240x240 PNG sticker.
