@@ -1,0 +1,86 @@
+{
+
+ "action_name":
+
+ "office_breakdown",
+
+
+ "scene":
+
+ {
+
+   "object":
+
+   "exploding_computer"
+
+ },
+
+
+ "pet_action":
+
+ {
+
+   "primary":
+
+   "typing_keyboard",
+
+
+   "emotion":
+
+   "panic"
+
+ },
+
+
+ "animal_mapping":
+
+ {
+
+
+   "cat":
+
+   {
+
+    "use":
+
+    "front_paws_on_keyboard"
+
+   },
+
+
+   "dog":
+
+   {
+
+    "use":
+
+    "front_paws_on_keyboard"
+
+   },
+
+
+   "bird":
+
+   {
+
+    "use":
+
+    "feet_on_keyboard"
+
+   },
+
+
+   "small_pet":
+
+   {
+
+    "use":
+
+    "near_keyboard"
+
+   }
+
+
+ }
+
+}
