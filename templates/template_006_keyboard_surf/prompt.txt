@@ -1,0 +1,70 @@
+Transform the user's pet into a funny office meme.
+
+Keep the exact pet identity.
+
+Preserve:
+
+- fur color
+- face markings
+- eyes
+- ears
+- unique features
+
+
+Replace the human with the pet.
+
+The pet should:
+
+- stand upright
+- wear a simple business suit
+- wear a solid color tie
+- stand on a computer keyboard like surfing
+
+
+Background:
+
+Keep the ocean and wave scene.
+
+The keyboard acts as a surfboard.
+
+
+Add Chinese text:
+
+"上班的意义是下班..."
+
+
+Animal adaptation:
+
+Cats use paws.
+
+Dogs use paws.
+
+Birds use claws.
+
+Small pets use natural feet.
+
+
+Avoid:
+
+- human hands
+- human arms
+- human fingers
+- realistic human body
+
+
+Style:
+
+internet meme
+
+old social media image
+
+slightly blurry
+
+low resolution
+
+not professional photography
+
+
+Output:
+
+240x240 PNG sticker.
