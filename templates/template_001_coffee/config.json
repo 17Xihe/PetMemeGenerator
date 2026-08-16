@@ -1,0 +1,160 @@
+{
+  "template_id": "001",
+
+  "name": "Coffee Office Pet",
+
+  "category": [
+    "office",
+    "daily",
+    "cute"
+  ],
+
+
+  "canvas": {
+
+    "width": 240,
+
+    "height": 240
+
+  },
+
+
+  "background": {
+
+    "fixed": true,
+
+    "elements": [
+
+      "office_floor",
+
+      "desk",
+
+      "coffee",
+
+      "briefcase"
+
+    ]
+
+  },
+
+
+  "pet_layer": {
+
+
+    "type":
+
+    "head_replace",
+
+
+    "position": {
+
+
+      "x":120,
+
+
+      "y":115
+
+    },
+
+
+    "scale":
+
+    0.65,
+
+
+    "transform": {
+
+
+      "head_horizontal_scale":
+
+      1.15,
+
+
+      "head_vertical_scale":
+
+      0.85
+
+    }
+
+  },
+
+
+  "costume": {
+
+
+    "required":
+
+    true,
+
+
+    "style":
+
+    "business_suit",
+
+
+    "tie":
+
+    "simple_solid_color"
+
+  },
+
+
+  "interaction": {
+
+
+    "objects":[
+
+      "coffee_cup",
+
+      "briefcase"
+
+    ]
+
+  },
+
+
+  "text": {
+
+
+    "content":
+
+    "Coffee?",
+
+
+    "language":
+
+    "English",
+
+
+    "position":
+
+    "top_right"
+
+  },
+
+
+  "style": {
+
+
+    "meme":
+
+    true,
+
+
+    "slightly_blurry":
+
+    true,
+
+
+    "low_realism":
+
+    true,
+
+
+    "internet_photo":
+
+    true
+
+  }
+
+}
