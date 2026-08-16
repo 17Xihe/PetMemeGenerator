@@ -1,0 +1,102 @@
+{
+
+ "action_name":
+
+ "stand_beside_flower",
+
+
+ "scene":
+
+ {
+
+   "object":
+
+   "red_rose"
+
+ },
+
+
+ "pet_action":
+
+ {
+
+   "primary":
+
+   "standing",
+
+   "emotion":
+
+   "quiet"
+
+ },
+
+
+ "animal_mapping":
+
+
+ {
+
+
+   "cat":
+
+   {
+
+    "pose":
+
+    "sit_near_rose"
+
+   },
+
+
+   "dog":
+
+   {
+
+    "pose":
+
+    "sit_near_rose"
+
+   },
+
+
+   "bird":
+
+   {
+
+    "pose":
+
+    "stand_near_rose"
+
+   },
+
+
+   "small_pet":
+
+   {
+
+    "pose":
+
+    "small_body_near_flower"
+
+   }
+
+
+ },
+
+
+ "scale_rule":
+
+ {
+
+  "pet":
+
+  "smaller_than_object",
+
+
+  "rose":
+
+  "dominant"
+
+ }
+
+}
