@@ -1,0 +1,127 @@
+{
+  "template_id": "007",
+
+  "name": "Pet Hidden Phone In Bed",
+
+  "category": [
+    "sleep",
+    "cute",
+    "daily"
+  ],
+
+
+  "canvas": {
+
+    "width":240,
+
+    "height":240
+
+  },
+
+
+  "background": {
+
+    "fixed":true,
+
+    "elements":[
+
+      "bed",
+
+      "blanket",
+
+      "dark_room",
+
+      "phone_light"
+
+    ]
+
+  },
+
+
+  "pet_layer": {
+
+
+    "type":
+
+    "head_and_upper_body_replace",
+
+
+    "position": {
+
+
+      "x":120,
+
+
+      "y":130
+
+    },
+
+
+    "scale":
+
+    0.75,
+
+
+    "body_visibility":
+
+    "under_blanket"
+
+
+  },
+
+
+  "interaction": {
+
+
+    "object":
+
+    "smartphone",
+
+
+    "pet_attention":
+
+    "looking_at_phone"
+
+  },
+
+
+  "blanket": {
+
+
+    "replaceable":
+
+    true,
+
+
+    "pattern":
+
+    "random_soft_pattern"
+
+  },
+
+
+  "style": {
+
+
+    "meme":
+
+    true,
+
+
+    "slightly_blurry":
+
+    true,
+
+
+    "low_resolution":
+
+    true,
+
+
+    "phone_photo":
+
+    true
+
+  }
+
+}
