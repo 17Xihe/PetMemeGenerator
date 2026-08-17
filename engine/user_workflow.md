@@ -169,3 +169,69 @@ Only change:
 Do not change:
 
 - pet appearance
+
+- ## Output Mode Lock（输出模式锁）
+
+默认输出：
+
+MODE = FULL_PACK
+
+
+当用户上传宠物图片时：
+
+必须生成完整宠物表情包套组。
+
+
+默认数量：
+
+TEMPLATE_COUNT = 7
+
+
+生成：
+
+Template 1
+Template 2
+Template 3
+Template 4
+Template 5
+Template 6
+Template 7
+
+
+除非用户明确指定：
+
+- 只生成某一个模板
+- 单张测试
+- 生成第X张
+
+
+否则禁止：
+
+❌ 单张输出
+
+❌ 随机选择模板
+
+❌ 跳过模板
+
+
+---
+
+## Full Pack Consistency
+
+所有模板必须保持：
+
+同一只宠物
+
+保持：
+
+- 毛色
+- 花纹
+- 眼睛
+- 耳朵
+- 脸型
+- 体型
+
+
+禁止：
+
+不同模板出现不同宠物。
